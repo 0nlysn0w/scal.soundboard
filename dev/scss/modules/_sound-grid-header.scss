@@ -1,0 +1,37 @@
+.sound-grid-header {
+    color: white;
+    
+    h5 {
+        font-weight: 400;
+        display: inline;
+        margin-right: 24px;
+    }
+}
+
+.sound-grid-header__add-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    i {
+        margin-right: 8px;
+    }
+}
+
+.sound-grid-header__volume-icon {
+    margin-left: 24px;
+}
+
+.sound-grid-header__volume-slider {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+// I have no clue why this thing suddenly grew a border, but w/e
+#volumeSlider {
+    border: 0px;   
+}

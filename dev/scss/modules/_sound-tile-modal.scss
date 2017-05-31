@@ -1,0 +1,29 @@
+.sound-tile-modal {
+    max-width: 500px;
+    color: black;
+}
+
+.sound-tile-modal__add-btn {
+    height: 45px;
+    line-height: 45px;
+}
+
+.sound-tile-modal__close-btn {
+    @extend .sound-tile-modal__add-btn; 
+    
+    margin-right: 24px !important;
+}
+
+.sound-tile-modal__edit-btn {
+    @extend .sound-tile-modal__add-btn; 
+}
+
+.sound-tile-modal__delete-btn {
+    @extend .sound-tile-modal__close-btn; 
+}
+
+.sound-tile-modal__footer {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    margin-bottom: 24px !important;
+}
