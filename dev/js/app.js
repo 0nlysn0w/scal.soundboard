@@ -9,19 +9,6 @@ $(document).ready( function() {
     newSoundTile();
     deleteSoundTile();
     playSoundTile();
-    
-    // Nav links
-    $("#faq-link").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#faq").offset().top + 32
-        }, 750);
-    });
-    
-    $("#about-link").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#about").offset().top + 32
-        }, 1500);
-    });
 });
 
 
@@ -122,6 +109,15 @@ function playSoundTile() {
         $(this).siblings('.sound-tile__sound')[0].play();
     });
 }
+
+function stopSound() {
+    $('.sound-tile__player-stop').click( function() {
+        console.log("test");
+        $(this).siblings('.sound-tile__sound')[0].currentTime = 0;
+        //$(this).siblings('.sound-tile__sound')[0].play();
+    });
+}
+
 
 
 /*

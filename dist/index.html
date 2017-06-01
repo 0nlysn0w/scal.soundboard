@@ -25,10 +25,6 @@
                 </div>
                 
             </a>
-            <ul id="nav-mobile" class="right hide-on-small-and-down">
-                <li><a href="javascript:void(0);" id="faq-link">FAQ</a></li>
-                <li><a href="javascript:void(0);" id="about-link">About</a></li>
-            </ul>
         </div>
     </nav> <!-- /Navbar -->
     
@@ -75,8 +71,8 @@
     <main class="main animated fadeIn">
         <div class="container sound-grid">
             <div class="row sound-grid-header valign-wrapper">
-                <h5>My Sound Grid</h5>
                 <a class="waves-effect waves-light btn sound-grid-header__add-btn" href="#addSoundTileModal"><i class="material-icons left">add</i>Add Sound Tile</a>
+                <a class="waves-effect waves-light btn sound-grid-header__add-btn sound-tile__player-stop">Stop</a>
                 
                 <i class="material-icons sound-grid-header__volume-icon hide-on-small-only">volume_up</i>
                 <p class="range-field sound-grid-header__volume-slider hide-on-small-only">
@@ -84,41 +80,13 @@
                 </p>
             </div>
             <div class="row sound-grid__container">
-                <div id="st-0" class="col s6 m3 l2 sound-tile">
-                    <div class="sound-tile__player sound-tile__player--pink waves-effect waves-light"></div>
-                    <a href="#editSoundTileModal" class="sound-tile__edit"><div class="sound-tile__label sound-tile__label--pink waves-effect waves-light">AND HIS NAME IS JOHN CENA</div></a>
-                    <audio class="sound-tile__sound" src="sounds/and-his-name-is-john-cena.mp3"></audio>
-                </div>
-                
+
                 <div id="st-1" class="col s6 m3 l2 sound-tile">
                     <div class="sound-tile__player sound-tile__player--purple waves-effect waves-light"></div>
                     <a href="#editSoundTileModal" class="sound-tile__edit"><div class="sound-tile__label sound-tile__label--purple waves-effect waves-light">MLG Airhorn</div></a>
                     <audio class="sound-tile__sound" src="sounds/airhorn.mp3"></audio>
                 </div>
-                
-                <div id="st-2" class="col s6 m3 l2 sound-tile">
-                    <div class="sound-tile__player sound-tile__player--blue waves-effect waves-light"></div>
-                    <a href="#editSoundTileModal" class="sound-tile__edit"><div class="sound-tile__label sound-tile__label--blue waves-effect waves-light">Inception Button</div></a>
-                    <audio class="sound-tile__sound" src="sounds/inceptionbutton.mp3"></audio>
-                </div>
-                
-                <div id="st-3" class="col s6 m3 l2 sound-tile">
-                    <div class="sound-tile__player sound-tile__player--teal waves-effect waves-light"></div>
-                    <a href="#editSoundTileModal" class="sound-tile__edit"><div class="sound-tile__label sound-tile__label--teal waves-effect waves-light">Screaming Sheep</div></a>
-                    <audio class="sound-tile__sound" src="sounds/screaming-sheep.mp3"></audio>
-                </div>
-                
-                <div id="st-4" class="col s6 m3 l2 sound-tile">
-                    <div class="sound-tile__player sound-tile__player--green waves-effect waves-light"></div>
-                    <a href="#editSoundTileModal" class="sound-tile__edit"><div class="sound-tile__label sound-tile__label--green waves-effect waves-light">Shrek Swamp</div></a>
-                    <audio class="sound-tile__sound" src="sounds/shrek-swamp.mp3"></audio>
-                </div>
-                
-                <div id="st-5" class="col s6 m3 l2 sound-tile">
-                    <div class="sound-tile__player sound-tile__player--orange waves-effect waves-light"></div>
-                    <a href="#editSoundTileModal" class="sound-tile__edit"><div class="sound-tile__label sound-tile__label--orange waves-effect waves-light">Simpsons NEEEERRRD</div></a>
-                    <audio class="sound-tile__sound" src="sounds/simpsons-nerd.mp3"></audio>
-                </div>
+
             </div>
         </div>        
     </main>
