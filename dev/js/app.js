@@ -9,6 +9,8 @@ $(document).ready( function() {
     newSoundTile();
     deleteSoundTile();
     playSoundTile();
+        stopSound();
+
 });
 
 
@@ -112,9 +114,7 @@ function playSoundTile() {
 
 function stopSound() {
     $('.sound-tile__player-stop').click( function() {
-        console.log("test");
-        $(this).siblings('.sound-tile__sound')[0].currentTime = 0;
-        //$(this).siblings('.sound-tile__sound')[0].play();
+        document.getElementById("player").pause();
     });
 }
 
