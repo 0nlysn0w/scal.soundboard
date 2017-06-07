@@ -1,0 +1,15 @@
+.main {
+    animation-duration: 1.5s;
+}
+
+.sound-grid {
+    margin-top: 48px;
+}
+
+@import "../modules/_sound-grid-header";
+@import "../modules/_sound-tile";
+@import "../modules/_sound-tile-modal";
+
+.yes {
+    background-color: $navbar-color;
+}

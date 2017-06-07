@@ -1,0 +1,145 @@
+.sound-tile__player {
+    margin-top: 1px;
+    width: 100%;
+}
+
+.sound-tile__player:before {
+    content: '';
+    padding: 50% 0;
+    display: inline-block;
+}
+
+.sound-tile__player--pink {
+    background: url("../images/play-pink.svg") no-repeat center center;
+    background-size: 64px 64px;
+    background-color: color("pink", "lighten-2");
+    
+    &:hover {
+        background-color: color("pink","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__player--purple {
+    background: url("../images/play-purple.svg") no-repeat center center;
+    background-size: 64px 64px;
+    background-color: color("deep-purple", "lighten-2");
+    
+    &:hover {
+        background-color: color("deep-purple","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__player--blue {
+    background: url("../images/play-blue.svg") no-repeat center center;
+    background-size: 64px 64px;
+    background-color: color("blue", "lighten-2");
+    
+    &:hover {
+        background-color: color("blue","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__player--teal {
+    background: url("../images/play-teal.svg") no-repeat center center;
+    background-size: 64px 64px;
+    background-color: color("teal", "lighten-2");
+    
+    &:hover {
+        background-color: color("teal","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__player--green {
+    background: url("../images/play-green.svg") no-repeat center center;
+    background-size: 64px 64px;
+    background-color: color("green", "lighten-2");
+    
+    &:hover {
+        background-color: color("green","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__player--orange {
+    background: url("../images/play-orange.svg") no-repeat center center;
+    background-size: 64px 64px;
+    background-color: color("deep-orange", "lighten-2");
+    
+    &:hover {
+        background-color: color("deep-orange","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+
+
+.sound-tile__label {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    min-height: 62px;
+    
+    margin-bottom: 1px;
+    padding: 10px;
+    width: 100%;
+}
+
+.sound-tile__label--pink {
+    background-color: color("pink", "darken-2");
+    
+    &:hover {
+        background-color: color("pink","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__label--purple {
+    background-color: color("deep-purple", "darken-2");
+    
+    &:hover {
+        background-color: color("deep-purple","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__label--blue {
+    background-color: color("blue", "darken-2");
+    
+    &:hover {
+        background-color: color("blue","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__label--teal {
+    background-color: color("teal", "darken-2");
+    
+    &:hover {
+        background-color: color("teal","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__label--green {
+    background-color: color("green", "darken-2");
+    
+    &:hover {
+        background-color: color("green","base");
+        @extend .z-depth-1-half;
+    }
+}
+
+.sound-tile__label--orange {
+    background-color: color("deep-orange", "darken-2");
+    
+    &:hover {
+        background-color: color("deep-orange","base");
+        @extend .z-depth-1-half;
+    }
+}
+

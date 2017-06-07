@@ -1,7 +1,33 @@
 {
-    "name": "AppExperiment",
-    "version": "1.0.0",
-    "private": true,
-    "dependencies": {
-    }
+	"name": "my-sound-grid",
+	"version": "1.0.0",
+	"description": "A simple soundboard web application. This project idea originated from a complaint that my friend had about pre-existing soundboard websites (that they were ugly and difficult to use).",
+	"main": "index.js",
+	"dependencies": {
+		"animate.css": "^3.5.2",
+		"jquery": "^3.1.1",
+		"materialize-css": "^0.98.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^6.7.6",
+		"cssnano": "^3.10.0",
+		"gulp": "^3.9.1",
+		"gulp-concat": "^2.6.1",
+		"gulp-postcss": "^6.3.0",
+		"gulp-sass": "^3.1.0",
+		"gulp-uglify": "^2.0.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/3xMMM/my-sound-grid.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/3xMMM/my-sound-grid/issues"
+	},
+	"homepage": "https://github.com/3xMMM/my-sound-grid#readme"
 }

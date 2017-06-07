@@ -1,0 +1,22 @@
+nav {
+    background-color: $navbar-color;
+    // Navbar Links
+    ul {
+        li {
+            &.active {
+                background-color: $navbar-active-color;
+            }
+        }
+    }
+}
+
+.navbar-logo {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 48px;
+    display: inline;
+}
+
+.brand-logo {
+    font-weight: 700;
+}
