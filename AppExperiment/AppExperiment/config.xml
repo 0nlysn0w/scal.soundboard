@@ -103,4 +103,7 @@
     <splash src="res/screens/windows/SplashScreen.scale-240.png" width="1152" height="1920" />
     <splash src="res/screens/windows/SplashScreenPhone.scale-240.png" width="1152" height="1920" />
   </platform>
+  <preference name="android-minSdkVersion" value="19" />
+  <preference name="android-maxSdkVersion" value="25" />
+  <preference name="android-targetSdkVersion" value="25" />
 </widget>

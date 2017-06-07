@@ -5,11 +5,11 @@ $(document).ready( function() {
     $('.modal').modal(); // Initialize the modal classes
     
     // loadSoundTiles();
-    volumeListener();
+    //volumeListener();
     newSoundTile();
     deleteSoundTile();
     playSoundTile();
-        stopSound();
+	stopSound();
 
 });
 
@@ -60,7 +60,7 @@ function createSoundTile( id, name, fileName, fileActual, color ) {
     $('#' + id + ' .sound-tile__sound').attr('src', URL.createObjectURL(fileActual));
     playSoundTile();
     deleteSoundTile();
-    adjustVolume();
+    //adjustVolume();
 }
 
 
